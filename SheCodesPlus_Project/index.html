@@ -10,8 +10,9 @@
 </head>
 <body>
 <div class="container">
+    <div class="weather-app-wrapper">
     <div class="weather-app">
-    
+        <div class="overview">
         <h1>
             New York
         </h>
@@ -23,13 +24,21 @@
                     Clear
                 </li>
             </ul>
-
-        <div class="row">
-            <div class="col-6">
-                <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="clear" 
+        </div>    
+            <div class="row">
+                <div class="col-6 weather-temperature">
+                <div class="clearfix">
+                <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" 
+                alt="clear" 
+                class="float-left"
                 />
-                12 °C | °F
+                <div class="float-left">
+                <strong> 12 </strong> 
+                <small> °C | °F </small>
+                </div>
+                </div>
             </div>
+
 
             <div class="col-6">
                 <ul>
@@ -44,17 +53,19 @@
                     </li>
                 </ul>
             </div> 
-            <small>
-                <a href="https://github.com/JasminKr/shecodes-project-weather-app"  target=_blank> 
-                    Open-source code 
-                    </a>
-                    by Jasmin Kräutner
-            </small>
+           
 
         </div>
+       
     </div> 
 
-
+    <small>
+        <a href="https://github.com/JasminKr/shecodes-project-weather-app"  target=_blank> 
+            Open-source code 
+            </a>
+            by Jasmin Kräutner
+    </small>
+    </div> 
 
 </div> 
   
