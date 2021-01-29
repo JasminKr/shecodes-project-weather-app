@@ -23,8 +23,13 @@ li {
     padding: 0;
     font-weight: 100;
     text-align: left;
+    
+}
+
+li:first-letter {
     text-transform: capitalize;
 }
+
 
 small {
     font-size: 12px;
