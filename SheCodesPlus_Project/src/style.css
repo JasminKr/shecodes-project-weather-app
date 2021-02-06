@@ -31,7 +31,7 @@ li:first-letter {
 }
 
 
-small {
+.units {
     font-size: 12px;
 }
 
@@ -60,13 +60,15 @@ small {
 }
 
 .weather-temperature strong {
+    color: black;
     font-size: 64px;
     line-height: 1;
     font-weight: 400;
 }
 
-.weather-temperature small {
+.weather-temperature .units {
     position: relative;
     font-size: 16px;
     top: -34px;
+    text-decoration: none;
 }
